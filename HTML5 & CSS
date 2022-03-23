@@ -1,0 +1,684 @@
+<!Doctype html>
+<html>
+    <head>
+    <title>Card</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Creepster+Caps');
+@import url('https://fonts.googleapis.com/css?family=ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body{
+    margin:0;
+    padding:0
+}
+
+/*Card1*/
+.ca-pink {
+    display: block;
+    max-width:100%;
+    background-color:SkyBlue;
+    padding:30px;
+    text-align:center;
+}
+
+.card-1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background:White;
+    border-radius:15px;
+    box-shadow:0 1px 10px #000;
+}
+
+    
+.name1 {     
+    font-family: 'Pacifico', sans-serif;     
+    font-size: 25px;     
+    font-style: normal;     
+    font-variant: normal;  
+    color:White;
+    font-weight:10;
+    background-color:HotPink;
+    margin-top:0;
+    padding:3px 0 5px 0;
+    }
+    
+.biodata1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+    color:crimson;
+    }
+
+.info1{
+    color: HotPink;
+    font-size: 20px;
+    font-family:'Ubuntu';
+    padding:5px 12px 0 12px;
+
+}
+
+.ava1 {
+    width:100%;
+    max-width:30%;
+    padding:25px 0 25px 0;
+    border-radius:50%;
+}
+
+#header1 {
+    background: url(https://images.unsplash.com/photo-1507290439931-a861b5a38200?dpr=1.5&amp;amp;amp;amp;amp;auto=format&amp;amp;amp;amp;amp;fit=crop&amp;amp;amp;amp;amp;w=360&amp;amp;amp;amp;amp;h=202&amp;amp;amp;amp;amp;q=60&amp;amp;amp;amp;amp;cs=tinysrgb&amp;amp;amp;amp;amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    background-size:115%;
+    border-radius:15px 15px 0 0;
+    padding:0;
+}
+
+.motto1 {
+    font-family: cursive;
+    font-size:20px;
+    font-weight:500;
+    color:HotPink;
+    font-style:italic;
+}
+
+#sosmed1 {
+    text-decoration: none;
+    width:100%;
+    font-size: 22px;
+    color: HotPink;
+}
+
+
+.Follow1 {
+    border: none;
+    outline: 0;
+    display: inline-block ;
+    padding:9px;
+    margin: 20px 0 20px 10px;
+    color: white;
+    background-color: DodgerBlue;
+    cursor: pointer;
+    width: 38%;
+    box-shadow:1px 1px 6px 1px #444;
+    font-size: 17px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:6px;
+    text-decoration: none;
+}
+/*******/
+
+/*Card 2*/
+.ca-darkslategray {
+    display:block;
+    max-width:100%;
+    background-color:AntiqueWhite;
+    padding:30px;
+}
+
+.card-2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background:White;
+    border-radius:15px;
+    box-shadow:0 1px 10px #000;
+}
+
+.name2 {     
+    font-family: 'Pacifico', sans-serif;     
+    font-size: 25px;     
+    font-style: normal;     
+    font-variant: normal;         
+    color:White;
+    font-weight:10;
+    background-color:DarkSlateGray;
+    margin-top:0;
+    padding:3px 0 5px 0;
+}
+    
+.biodata2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+    color:crimson;
+    }
+
+.info2{
+    color: DarkSlateGray;
+    font-size: 20px;
+    font-family:'Ubuntu';
+    padding:5px 12px 0 12px;
+}
+
+.ava2 {
+    width:100%;
+    max-width:30%;
+    padding:25px 0 25px 0;
+    border-radius:50%;
+    -webkit-filter:grayscale(10%);
+}
+
+#header2 {
+    background: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?auto=format&amp;fit=crop&amp;w=750&amp;q=60&amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    background-size:cover;
+    border-radius:15px 15px 0 0;
+    padding:0;
+}
+
+.motto2 {
+    font-family:cursive;
+    font-size:20px;
+    font-weight:500;
+    color: DarkSlateGray;
+    font-style:italic;
+}
+
+#sosmed2 {
+    text-decoration: none;
+    width:100%;
+    font-size: 22px;
+    color: DarkSlateGray;
+}
+
+
+.Follow2 {
+    border: none;
+    outline: 0;
+    display: inline-block ;
+    padding:9px;
+    margin: 20px 0 20px 10px;
+    color: white;
+    background-color: #568f8f;
+    cursor: pointer;
+    width: 38%;
+    box-shadow:1px 1px 6px 1px #444;
+    font-size: 17px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:6px;
+    text-decoration: none;
+}
+/*******/
+
+/*Card 3*/
+.ca-slategray {
+    display:block;
+    max-width:100%;
+    background-color:LightSeaGreen;
+    padding:30px;
+}
+
+.card-3 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background:White;
+    border-radius:15px;
+    box-shadow:0 1px 10px #000;
+}
+
+    
+.name3 {     
+    font-family: 'Pacifico', sans-serif;     
+    font-size: 25px;     
+    font-style: normal;     
+    font-variant: normal;         
+    color:White;
+    font-weight:10;
+    background-color:SlateGray;
+    margin-top:0;
+    padding:3px 0 5px 0;
+    }
+    
+.biodata3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+    color:crimson;
+}
+
+.info3 {
+    color: SlateGray;
+    font-size:20px;
+    font-family:'Ubuntu';
+    padding:5px 12px 0 12px;
+
+}
+
+.ava3 {
+    width:100%;
+    max-width:30%;
+    padding:25px 0 25px 0;
+    border-radius:100%;
+    -webkit-filter:grayscale(100%);
+}
+
+#header3 {
+    background:url(https://images.unsplash.com/photo-1483959651481-dc75b89291f1?auto=format&amp;amp;fit=crop&amp;amp;w=601&amp;amp;q=60&amp;amp;ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    background-size:120%;
+    border-radius:15px 15px 0 0;
+    padding:0;
+    -webkit-filter:blur(0.1px);
+}
+
+.motto3 {
+    font-family:cursive;
+    font-size:20px;
+    padding:0 15px 0 15px;
+    font-weight:500;
+    color:SlateGray;
+    font-style:italic;
+}
+
+#sosmed3 {
+    text-decoration: none;
+    width:100%;
+    font-size: 22px;
+    color: SlateGray;
+}
+
+
+.Follow3 {
+    border: none;
+    outline: 0;
+    display: inline-block ;
+    padding:9px;
+    margin: 20px 0 20px 10px;
+    color: white;
+    background-color: teal;
+    text-align: center;
+    cursor: pointer;
+    width: 38%;
+    box-shadow:1px 1px 6px 1px #444;
+    font-size: 17px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:6px;
+    text-decoration: none;
+}
+/*******/
+
+/*Card 4*/
+.ca-dodgerblue {
+    display:block;
+    max-width:100%;
+    background-color:#B2C2E0;
+    padding:30px;
+}
+
+.card-4 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background:White;
+    border-radius:15px;
+    box-shadow:0 1px 10px #000;
+}
+
+.name4 {     
+    font-family: 'Pacifico', sans-serif;     
+    font-size: 25px;     
+    font-style: normal;     
+    font-variant: normal;         
+    color:White;
+    font-weight:10;
+    background-color:DodgerBlue;
+    margin-top:0;
+    padding:3px 0 5px 0;
+    }
+    
+.biodata4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+    color:crimson;
+    }
+
+.info4{
+    color: DodgerBlue;
+    font-size: 20px;
+    font-family:'Ubuntu';
+    padding:5px 12px 0 12px;
+
+}
+
+.ava4 {
+    width:100%;
+    max-width:30%;
+    padding:25px 0 25px 0;
+    border-radius:100%;
+}
+
+#header4 {
+    background: url(https://2.bp.blogspot.com/-LY6kJR9XO4g/Wf1vG4b1qYI/AAAAAAAACMQ/doE7MbF-Kb4vYEUAJaZv3goupGt4EN1DQCLcBGAs/s1600/Hogwarts-castle-harry-potter-166431.jpg);
+    background-size:cover;
+    border-radius:15px 15px 0 0;
+    padding:0;
+}
+
+.motto4 {
+    font-family:cursive;
+    font-size:20px;
+    font-weight:500;
+    color:DodgerBlue;
+    font-style:italic;
+}
+
+#sosmed4 {
+    text-decoration: none;
+    width:100%;
+    font-size: 22px;
+    color: DodgerBlue;
+}
+
+
+.Follow4 {
+    border: none;
+    outline: 0;
+    display: inline-block ;
+    padding:9px;
+    margin: 20px 0 20px 10px;
+    color: white;
+    background-color: #335CAD;
+    text-align: center;
+    cursor: pointer;
+    width: 38%;
+    box-shadow:1px 1px 6px 1px #444;
+    font-size: 17px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:5px;
+    text-decoration: none;
+}
+/*******/
+
+/*Card 5*/
+.ca-violet {
+    display:block;
+    max-width:100%;
+    background-color:#d8c4fc;
+    padding:30px;
+}
+
+.card-5 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background:White;
+    border-radius:15px;
+    box-shadow:0 1px 10px #000;
+}
+
+.name5 {     
+    font-family: 'Pacifico', sans-serif;     
+    font-size: 25px;     
+    font-style: normal;     
+    font-variant: normal;         
+    color:White;
+    font-weight:10;
+    background-color:#E67C95;
+    margin-top:0;
+    padding:3px 0 5px 0;
+    }
+    
+.biodata5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:18px;
+    color:crimson;
+    }
+
+.info5 {
+    color: #E67C95;
+    font-size: 20px;
+    font-family:'Ubuntu';
+    padding:5px 12px 0 12px;
+
+}
+
+.ava5 {
+    width:100%;
+    max-width:30%;
+    padding:25px 0 25px 0;
+    border-radius:100%;
+    -webkit-filter:contrast(150%);
+}
+
+#header5 {
+    background: url(http://78.media.tumblr.com/d90039be84a14ea2688bce7dc95fa3ef/tumblr_o9wt2jAMwB1sf275po1_500.gif);
+    background-size:cover;
+    border-radius:15px 15px 0 0;
+    padding:0;
+}
+
+.motto5 {
+    font-family:cursive;
+    font-size:20px;
+    font-weight:500;
+    color:#E67C95;
+    font-style:italic;
+}
+
+#sosmed5 {
+    text-decoration: none;
+    width:100%;
+    font-size: 22px;
+    color: #E67C95;
+}
+
+
+.Follow5 {
+    border: none;
+    outline: 0;
+    display: inline-block ;
+    padding:9px;
+    margin: 20px 0 20px 10px;
+    color: white;
+    background-color: #8877F0;
+    text-align: center;
+    cursor: pointer;
+    width: 38%;
+    box-shadow:1px 1px 6px 1px #444;
+    font-size: 17px;
+    border-radius:15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-right:6px;
+    text-decoration: none;
+}
+/*******/
+
+/*******/
+p {
+    padding: 0 20px -3px 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    color:#444;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.Unfollow {
+    border: none;
+    outline: 0;
+    display: inline-block ;
+    padding: 9px;
+    margin: 20px 10px 20px 0;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    width: 38%;
+    font-size: 17px;
+    border-radius:15px;
+    box-shadow:0 1px 10px #444;
+    text-decoration: none;
+}
+
+.up {
+    display:block;
+    padding: 14px 5px 5px 5px;
+    margin: auto ;
+    margin-top:30px;
+    margin-bottom:20px;
+    color: purple;
+    background-color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight:1000;
+    width:10%;
+    border-radius:15px;
+    box-shadow:0 1px 10px #444;
+    text-decoration: none;
+    text-align:center;
+    border-bottom: 12px solid #d8c4fc;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: '';
+    position:relative ;
+}
+
+.footer {
+  padding:16px 0 8px 0;
+  background:#222;
+  color: #fff;
+  font-size:20px;
+  text-align:center;
+  border-top:2px solid #fff;
+}
+        </style>
+    </head>
+    <body>
+        
+<!--Card 1-->       
+<div class="ca-container ca-pink">
+     <div class="card-1">
+<div id="header1" class="section">
+          <img src="http://78.media.tumblr.com/6ca4d884b187372fcf8d1258f0a773ac/tumblr_nzfxsfOeUM1qe7433o1_1280.gif" class="ava1" alt=""></div>
+  <h2 class="name1">Ika Prawedya</h2>
+  
+  <q class="motto1"> Hadapi semua dengan elegan</q>
+    <p class="biodata1">18yo | Chef</p>
+    
+<p class="info1">Skill:</p>
+<p>Membuat kue, cuek, cuci piring</p>
+
+<a href="#" target="_blank" class="Follow1">Follow</a>
+<a href="#" alt="#" target="_blank" class="Unfollow">Unfollow</a><br>
+
+  <a href="#" id="sosmed1"><i class="fa fa-dribbble"></i></a> 
+  <a href="#" id="sosmed1"><i class="fa fa-twitter"></i></a> 
+  <a href="#" id="sosmed1"><i class="fa fa-linkedin"></i></a> 
+  <a href="#" id="sosmed1"><i class="fa fa-pinterest"></i></a>
+<br><br>
+</div></div>
+
+
+<!--Card 2-->
+<div class="ca-container ca-darkslategray">
+     <div class="card-2">
+<div id="header2" class="section">
+ <img src="https://pbs.twimg.com/profile_images/815712646301257728/5GkZ_VBB_400x400.jpg" class="ava2" alt=""></div>
+ <h2 class="name2">Ebi Surya</h2>
+  
+ <q class="motto2"> Badai pasti berlalu</q>
+    <p class="biodata">20yo | Web Designer</p>
+    
+<p class="info2">Skill:</p>
+<p>Programming, ngopi, makan chiki</p>
+
+<a href="#" target="_blank" class="Follow2">Follow</a>
+<a href="#" alt="#" target="_blank" class="Unfollow">Unfollow</a><br>
+
+  <a href="#" id="sosmed2"><i class="fa fa-github"></i></a> 
+  <a href="#" id="sosmed2"><i class="fa fa-google-plus"></i></a> 
+  <a href="#" id="sosmed2"><i class="fa fa-linkedin"></i></a> 
+  <a href="#" id="sosmed2"><i class="fa fa-pinterest"></i></a> 
+<br><br>
+</div></div>
+
+
+<!--Card 3-->
+<div class="ca-container ca-slategray">
+     <div class="card-3">
+<div id="header3" class="section">
+ <img src="https://1.bp.blogspot.com/-X3-7I7Wgz2Y/Wfx7C_KcWtI/AAAAAAAACLY/wY3aJWT4IXIH3DqVmigUzY7oivN-cNPCQCLcBGAs/s1600/ok.jpg" class="ava3" alt=""></div>
+  <h2 class="name3">Muhammad Taufik</h2>
+  
+  <q class="motto3"> Yang muda yang berkarya</q>
+    <p class="biodata3">21yo | Web Developer</p>
+    
+<p class="info3">Skill:</p>
+<p>Programming, bisnis, nggoreng tahu</p>
+
+<a href="#" target="_blank" class="Follow3">Follow</a>
+<a href="#" alt="#" target="_blank" class="Unfollow">Unfollow</a><br>
+
+  <a href="#" id="sosmed3"><i class="fa fa-dribbble"></i></a> 
+  <a href="#" id="sosmed3"><i class="fa fa-behance"></i></a> 
+  <a href="#" id="sosmed3"><i class="fa fa-linkedin"></i></a> 
+  <a href="#" id="sosmed3"><i class="fa fa-github"></i></a> 
+<br><br>
+</div></div>
+
+
+<!--Card 4-->
+<div class="ca-container ca-dodgerblue">
+     <div class="card-4">
+<div id="header4" class="section">
+          <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQlxnU4W2sbnFURf15s4JJCqDRZVz7xQtdm4_Xi8Km9BXAiXHsKN8itt29_hA" class="ava4" alt=""></div>
+  <h2 class="name4">Diah Ayu</h2>
+  
+  <q class="motto4"> Anfauhum linnas</q>
+    <p class="biodata4">18yo | Mahasiswa</p>
+    
+<p class="info4">Skill:</p>
+<p>Cup-clap, menari, bersepeda</p>
+
+<a href="#" target="_blank" class="Follow4">Follow</a>
+<a href="#" alt="#" target="_blank" class="Unfollow">Unfollow</a><br>
+
+  <a href="#" id="sosmed4"><i class="fa fa-dribbble"></i></a> 
+  <a href="#" id="sosmed4"><i class="fa fa-twitter"></i></a> 
+  <a href="#" id="sosmed4"><i class="fa fa-linkedin"></i></a> 
+  <a href="#" id="sosmed4"><i class="fa fa-pinterest"></i></a> 
+<br><br>
+</div></div>
+
+
+<!--Card 5-->
+<div class="ca-container ca-violet">
+     <div class="card-5">
+<div id="header5" class="section">
+          <img src="http://78.media.tumblr.com/c2ffc955c1684e969ac8117a65a1f8df/tumblr_on4b63aRge1vxq7w3o1_400.jpg" class="ava5" alt=""></div>
+  <h2 class="name5">Mauve Rahayu</h2>
+  
+  <q class="motto5"> Do not lose hope, nor be sad</q>
+    <p class="biodata5">19yo | Teacher</p>
+    
+<p class="info5">Skill:</p>
+<p>Design, multimedia, bersepeda</p>
+
+<a href="#" target="_blank" class="Follow5">Follow</a>
+<a href="#" alt="#" target="_blank" class="Unfollow">Unfollow</a><br>
+
+  <a href="#" id="sosmed5"><i class="fa fa-dribbble"></i></a> 
+  <a href="#" id="sosmed5"><i class="fa fa-behance"></i></a> 
+  <a href="#" id="sosmed5"><i class="fa fa-linkedin"></i></a> 
+  <a href="http://mauvelovelace.tumblr.com" target="_blank" id="sosmed5"><i class="fa fa-tumblr"></i></a> 
+<br><br>
+
+</div>
+    
+<a href="#" class="up">UP</a>
+    
+</div>
+
+<footer class="footer">&copy; 2021 Naw Berkarya</footer>
+</body>
+</html>
+
+<!--Sidoarjo, 4 November 2017-->
